@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+#sidebar-wrapper {
+    min-height: 100vh;
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+}
+#page-content-wrapper {
+    width: 100%;
+}
+.sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+.list-group-item {
+    border: none;
+    background-color: #343a40;
+    color: white;
+}
+.list-group-item:hover {
+    background-color: #495057;
+}
