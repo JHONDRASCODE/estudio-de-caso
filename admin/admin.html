@@ -1,42 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
-   
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Panel Administrativo</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+    
 </head>
 <body>
-    <div id="wrapper">
-        <div id="sidebar-wrapper">
-            <div class="sidebar-heading">Admin Panel</div>
+    <div class="d-flex" id="wrapper">
+        
+        <div class="bg-light border-right" id="sidebar-wrapper">
+            
             <div class="list-group list-group-flush">
-                <a href="admin.html" class="list-group-item list-group-item-action">Dashboard</a>
-                <a href="usuarios.html" class="list-group-item list-group-item-action">Usuarios</a>
-                <a href="clientes.html" class="list-group-item list-group-item-action">Clientes</a>
-                <a href="categorias.html" class="list-group-item list-group-item-action">Categorías</a>
-                <a href="productos.html" class="list-group-item list-group-item-action">Productos</a>
-                <a href="pedidos.html" class="list-group-item list-group-item-action">Pedidos</a>
-                <a href="login.html" class="list-group-item list-group-item-action">Salir</a>
+                <a href="Index.html" class="list-group-item list-group-item-action bg-light">Inicio</a>
+                <a href="Principal.html" class="list-group-item list-group-item-action bg-light">Principal</a>
+                <a href="Usuarios.html" class="list-group-item list-group-item-action bg-light">Usuarios</a>
+                <a href="clientes.html" class="list-group-item list-group-item-action bg-light">Clientes</a>
+                <a href="Categorias.html" class="list-group-item list-group-item-action bg-light">Categorías</a>
+                <a href="Productos.html" class="list-group-item list-group-item-action bg-light">Productos</a>
+                <a href="Pedidos.html" class="list-group-item list-group-item-action bg-light">Pedidos</a>
+                <a href="sesion.html" class="list-group-item list-group-item-action bg-light">Salir</a>
             </div>
         </div>
+        
+
+        
         <div id="page-content-wrapper">
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+                <h1 class="mt-4">Panel Administrativo</h1>
             </nav>
+
             <div class="container-fluid">
-                <h1 class="mt-4">Dashboard</h1>
-                <p>Bienvenido al panel de administración.</p>
+                
+                <div class="welcome-container">
+                    <div class="welcome-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <p class="welcome-subtitle">Estamos encantados de verte de nuevo.</p>
+                    <img src="Img/OIP (2).jfif" class="rounded mx-auto d-block" alt="...">
+                </div>
+                
             </div>
         </div>
+        
     </div>
+    
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    < script src="/js/menu-hamburguesa.js"></script>
-    
-        
-    </body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
